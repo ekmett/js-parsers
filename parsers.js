@@ -1,4 +1,4 @@
-define('js/parsers',[],function() {
+define('parsers',[],function() {
   var parsers = {};
 
   /** Parsing combinators by Edward Kmett
