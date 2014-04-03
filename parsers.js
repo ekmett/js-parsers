@@ -301,7 +301,7 @@ define('parsers',[],function() {
                : (m.pos > d2) ? kc(a2,s2,d2)
                               : kc(a2,union(m.expected,s2),d2)
         },
-        function (m2) { return m.merge(m2) }
+        function (m2) { return ke(m.merge(m2)) }
       )}
     )})
   };
